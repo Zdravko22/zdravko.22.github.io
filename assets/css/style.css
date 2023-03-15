@@ -1,0 +1,538 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:sans-serif;
+	/*background:#D3D3D3;*/
+}
+header{
+	width:100%;
+}
+
+
+.kontejner{
+	display:flex;
+	background:black;
+	margin:0px auto;
+	padding:10px;
+	height:70px;
+}
+
+.logoSata{
+	height:70px;
+	width:70px;
+	margin-left:100px;
+	position:absolute;
+	filter:invert(100%);
+	
+	
+}
+ #aboutUs a{
+	 color:black;
+ }
+ a{
+	 text-decoration:none;
+	 color:white;
+ }
+nav{
+	display:flex;
+}
+.desni-kontejner{
+	display:flex;
+	margin-left:1000px;
+	padding:20px;
+}
+.desni-kontejner p{
+	font-size:25px;
+	margin-right:30px;
+	color:white;
+	
+}
+#glavni{
+	width:100%;
+	
+	
+	
+}
+.slikaSata{
+	width:100%;
+	height:1000px;
+	border: 2px solid;
+	filter:blur(5px);
+	position:relative;
+	background-position: center;
+	margin-bottom:200px;
+	
+}
+
+.Naslov{
+	position:absolute;
+	font-size:50px;
+	color:white;
+	background-color: rgba(0,0,0, 0.4);
+	top:50%;
+	left:28%;
+	border:3px solid;
+	text-align:center;
+	width:600px;
+	height:300px;
+	border-radius:20px;
+	animation-name: mymove;
+    animation-duration: 5s;
+}
+	@keyframes mymove {
+  from {top: 0px;}
+  to {top: 50%;}
+
+	
+}
+
+.Naslov p{
+	font-size:25px;
+	
+}
+.Naslov h1{
+	text-transform:uppercase;
+	font-size:60px;
+	margin:40px;
+}
+
+.slikaSatova1{
+	width:550px;
+	height:400px;
+	display:flex;
+	margin-left:200px;
+	border-radius:50px;
+	margin-right:50px;
+	padding:20px;
+	
+}
+
+.About{
+	background:#F5F5F5;
+	display:flex;
+	margin-bottom:300px;
+}
+
+.About-tekst{
+	margin-right:400px;
+	margin-bottom:50px;
+}
+
+.About-tekst h1 {
+	font-size:40px;
+	padding:10px;
+	text-align:justify;
+	margin-top:30px;
+}
+
+.About-tekst p{
+	font-size:20px;
+	text-align:justify;
+}
+
+.popularnostSatova{
+	display:flex;
+	
+}
+.oSatovima {
+	width:100%;
+	/*background:	#333333;*/
+	background:#F5F5F5;
+	color:white;
+	
+	
+}
+.Satovi{
+	color:black;
+	padding:50px;
+}
+
+
+.naslov {
+	font-size:40px;
+	text-align:center;
+	
+}
+
+
+.tekst1{
+
+	font-size:20px;
+	text-align:center;
+}
+
+.box{
+	width:600px;
+}
+
+.rolex{
+	margin-left:100px;
+	box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.5);
+}
+
+.casio{
+	margin:auto;
+	box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.5);
+}
+
+.seiko{
+	margin-right:100px;
+	box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.5);
+}
+
+.slikeSatova1{
+	display:flex;
+	background-color:#242124;
+	margin-top:80px;
+	padding:30px 0px 140px 0px;
+}
+
+.rolex, .casio, .seiko,   h1{
+	text-align:center;
+	font-size:30px;
+	margin-top:100px;
+}
+
+.rolexSlika, .casioSlika, .seikoSlika {
+	height:300px;
+	width:300px;
+	border-radius:45px;
+	border:1px solid;
+}
+.seikoSlika{
+	height:300px;
+}
+.rolex  p{
+	width:300px;
+	text-align:justify;
+	font-size:20px;
+}
+
+.casio p{
+	width:320px;
+	text-align:justify;
+	font-size:20px;
+}
+
+.seiko p{
+	width:300px;
+	text-align:justify;
+	font-size:20px;
+}
+.casioSlika {
+	width:320px;
+}
+
+.forma{
+	margin-top:;
+	height:500px;
+	width:440px;
+	margin:100px auto;
+	background:#D3D3D3;
+	background:rgb(243, 243, 243);
+	
+}
+.contact h1{
+	font-size:40px;
+	
+}
+.imeprezime{
+	display:flex;
+	padding:20px 0 0 0;
+}
+
+.FirstName{
+	height:40px;
+	width:150px;
+	border:none;
+	margin-left:45px;
+	margin-top:5px;
+	
+}
+.LastName{
+	height:40px;
+	width:150px;
+	border:none;
+	margin-left:45px;
+	margin-top:5px;
+}
+
+.ime label{
+	margin-left:45px;
+	
+	
+}
+
+.prezime label {
+	margin-left:45px;
+}
+
+.mail label {
+	margin-left:45px;
+}
+
+.Email{
+	margin-left:45px;
+	width:345px;
+	height:40px;
+	margin-top:5px;
+	border:none;
+}
+
+.msg {
+	margin-left:45px;
+	width:345px;
+	height:40px;
+	
+}
+
+.Message{
+	width:345px;
+	height:200px;
+	margin-top:5px;
+	border:none;
+	
+	
+}
+
+.send{
+	margin-top:210px;
+	margin-left:45px;
+	
+}
+
+.Send{
+	height:40px;
+	width:120px;
+	background:#D3D3D3;
+	border: 1px solid;
+	opacity:0.6;
+	transition:0.3s;
+	cursor:pointer;
+	
+	
+}
+
+.Send:hover{
+	opacity:1;
+}
+
+::placeholder{
+	padding:10px 0px 15px 10px;
+	position:absolute;
+	top:2px;
+	left:10px;
+	
+}
+
+.footer{
+	background:black;
+	width:100%;
+	height:250px;
+	margin-top:200px;
+	position:relative;
+
+}
+.footer img{
+	width:30px;
+}
+
+.linkovi{
+	display:flex;
+	height:200px;
+	width:100%;
+}
+
+
+.instagram, .rss, .sitemap{
+	filter:invert(100%);
+}
+
+.svi-linkovi, .kontakt{
+	color:white;
+}
+
+.social-linkovi h1{
+	margin-bottom:15px;
+	margin-top:0px;
+	color:white;
+	font-size:30px;
+}
+
+.svi-linkovi h1{
+	margin-top:0px;
+	font-size:30px;
+	margin-bottom:15px;
+}
+.kontakt h1{
+	margin-top:0px;
+	font-size:30px;
+	margin-bottom:15px;
+	
+}
+
+.social-linkovi{
+	padding:40px;
+	margin-left:150px;
+	
+}
+
+.svi-linkovi{
+	padding:40px;
+	margin:auto;
+	
+}
+
+.kontakt{
+	padding:40px;
+	margin-right:150px;
+	
+}
+
+
+.svi-linkovi p,  .kontakt  p{
+	margin-bottom:10px;
+}
+
+.social-linkovi i{
+	margin-right:10px;
+}
+
+.slikaGallery{
+	width:100%;
+	border-top: white 1px solid;
+	filter:blur(5px);
+	margin-bottom:75px;
+}
+
+.inspiration {
+	position:absolute;
+	font-size:70px;
+	color:white;
+	top:46%;
+	left:29%;
+	text-align:center;
+	
+	
+}
+
+.pocetni-tekst{
+	color:black;
+	background:#F5F5F5;
+	height:150px;
+	text-align:center;
+}
+
+.pocetni-tekst h1{
+	position:relative;
+	padding:25px;
+	font-size:40px;
+}
+.pocetni-tekst p{
+	font-size:20px;
+}
+.sveSlike1{
+	display:flex;
+	
+	margin-top:50px;
+	width:100%;
+	padding: 0 0 0 140px;
+	
+}
+.sveSlike1 img{
+	width:300px;
+	border-radius:35px;
+	-webkit-transition-property: all; 
+    -webkit-transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease; 
+	cursor:pointer;
+}
+
+.sveSlike2 {
+	display:flex;
+	margin-top:90px;
+	margin-right:250px;
+	width:100%;
+	padding: 0 0 0 140px;
+	
+}
+.sveSlike2 img{
+	width:300px;
+	border-radius:35px;
+	-webkit-transition-property: all; 
+    -webkit-transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease; 
+	cursor:pointer;
+	
+}
+
+.slika1 {
+	
+	
+	 
+}
+.slika2{
+	margin:0 auto;
+	
+}
+.slika3{
+	margin-right:140px;
+	
+}
+
+
+.slika4{
+	
+}
+.slika5{
+	margin:0 auto;
+}
+
+.slika6{
+	margin-right:140px;
+}
+
+
+.sveSlike1 img:hover{
+	transform:scale(1.2);
+	
+}
+.sveSlike2 img:hover{
+	transform:scale(1.2);
+	
+}
+
+.aboutMe{
+	display:flex;
+	background:#F5F5F5;
+	margin-top:200px;
+}
+
+.slikaAutora1{
+	width:400px;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-left:400px;
+	border-radius:80px;
+	margin-right:50px;
+}
+
+.aboutMeTekst {
+	justify-content:center;
+}
+.aboutMeTekst h1{
+	font-size:40px;
+	margin-right:480px;
+	margin-bottom:10px;
+}
+.aboutMeTekst h2{
+	font-size:20px;
+}
+.aboutMeTekst p{
+	margin-right:250px;
+	font-size:15px;
+	text-align:justify;
+	
+}
